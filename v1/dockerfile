@@ -7,6 +7,6 @@ COPY init.sh /app/init.sh
 
 RUN chmod u+x /app/init.sh
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["/app/init.sh"]
